@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded",
   function (event) {
     
     company = [['ABBEY', 'ACME', 'AHR', 'ALEMBIC', 'ALEMBIC VET', 'ALKEM', 'BENNET MYPHER', 'BIOMED', 'BION', 'BLISSON', 'BRIHANS', 'CONCEPT', 'DABUR', 'DR .KHANS', 
-    'DUCKBACK', 'EXCELLAR', 'GENIAL', 'GENO', 'HIMALAYA', 'HIMALAYA VET', 'HOECHST', 'INDIAN HERBS', 'INDIAN IMMUNOLOGICALS', 
+    'DUCKBACK', 'EXCELLAR', 'GENIAL', 'GENO', 'HIMALAYA', 'HIMALAYA VET', 'MSD', 'INDIAN HERBS', 'INDIAN IMMUNOLOGICALS', 
     'INTAS', 'LEGEND', 'LINCOLN', 'MACLEODS', 'MANKIND', 'MARION', 'MICRO'], ['MSN', 'NATURAL REMEDIES', 'NUTRICIA', 'OAKNET', 
-    'PETCARE', 'PROVIMI', 'RELIABLE PHARMACEUTICAL', 'SARABHAI', 'SIGMA LABORATORIES', 'SUNDYOTA NUMANDIS', 'SUNWAYS', 'VENKYS', 'VETSFARMA', 'VIRBAC', 'WIN-MEDICARE', 
+    'PETCARE', 'PROVIMI', 'RELIABLE PHARMACEUTICAL', 'ZYDUS', 'MANEESH PHARMACEUTICALS', 'SUNDYOTA NUMANDIS', 'SUNWAYS', 'VENKYS', 'VETSFARMA', 'VIRBAC', 'WIN-MEDICARE', 
     'WOCKHARDT', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']];
 
     cmp_id = ['C1','C2','C3','C4','C5','C6','C7','C8','C9','C10','C11','C12','C13','C14','C15','C16','C17','C18','C19','C20',
@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded",
 
     images = [['abbey.jpg', 'acme.jpg', 'ahr.png', 'alembic.png', 'alembic.png', 'alkem.png', 'bennet.jpg', 'biomed.png', 'bion.png', 
     'blisson.jpg', 'brihains.png', 'concept.png', 'dabur.jpg', 'drkhan.jpg', 'duckback.png', 'excellar.jpg', 'genial.jpg', 
-    'geno.jpg', 'himalaya.png', 'himalaya.png', 'hoechst.png', 'indianherbs.png', 'indianimmunologicals.jpg', 'intas.jpg', 
+    'geno.jpg', 'himalaya.png', 'himalaya.png', 'msd.png', 'indianherbs.png', 'indianimmunologicals.jpg', 'intas.jpg', 
     'legend.jpg', 'lincoln.jpg', 'macleods.png', 'mankind.jpg', 'marion.jpg', 'micro.png'], ['msn.png', 'naturalremedies.png', 
-    'nutricia.png', 'oaknet.png', 'petcare.jpg', 'provimi.jpg', 'reliable.jpg', 'sarbhai.png', 'sigma.png', 'sundyota.png', 
+    'nutricia.png', 'oaknet.png', 'petcare.jpg', 'provimi.jpg', 'reliable.jpg', 'zydus.jpg', 'maneesh.jpg', 'sundyota.png', 
     'sunways.jpg', 'venkys.jpg', 'vetsfarma.png', 'virbac.jpg', 'win-medicare.png', 'wockhardt-logo.png', 'blisson.jpg', 'blisson.jpg', 'blisson.jpg', 'blisson.jpg', 
     'blisson.jpg', 'blisson.jpg', 'blisson.jpg', 'blisson.jpg', 'blisson.jpg', 'blisson.jpg', 'blisson.jpg', 'blisson.jpg', 'blisson.jpg', 'blisson.jpg']];
     
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded",
     
     biomed = [['F1 VACCIN|1 PCS', 'GAMBORO VAC|1 PCS', 'H.S.B.Q|1 PCS', 'R2B VACCIN.|1 PCS', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']] 
     
-    sarbhai = [['ARNIBAX SHAMPOO|200 ML', 'BATRYNIL INJ|30 ML', 'BELAMYL INJ.|30 ML', 'BELAMYL INJ|10 ML', 'BELAMYL INJ|50 ML', 'BIOBLOOM POWDER|250 GM', 'BIOBLOOM POW|1 KG', 'CADISOL DC|1 LITRE', 'CADISOL DC|100 ML', 'CADISOL-DC|500 ML', 'CADISTIN VET INJ.|100 ML', 'CADISTIN VET INJ|30 ML', 'CAPSOLA GOLD|1 LITRE', 'CAPSOLA GOLD|20 LITRE', 'CAPSOLA GOLD|5 LITRE', 'CAPSOLA PREMIUM|1 LITRE', 'CHELATED RANMIX SHAKTI|1 KG', 'CURAMINTH 1.5 TAB|2 PCS', 'CURAMINTH 150 TAB|10 PCS', 'DERMEEZ|50 ML', 'DEXONA VET INJ|5 ML', 'DIERYSTICIN S LD INJ|2 5 GM', 'ECTOFREE|200 ML', 'ENRODAC 10 ORAL SOL|100 ML', 'ENRODAC-10 VET INJ|100 ML', 'ENRODAC-10|15 ML', 'ESGIPYRIN N INJ|5 PCS', 'F.P.P.20 LAK|10 PCS', 'FLUNIMEG INJ|10 ML', 'FURSHINE DOG SHAMPOO|100 ML'], ['FURSHINE DOG SHAMPOO|200 ML', 'GWALA POWDER|1 KG', 'HEXANIDE BOLUS|4 PCS', 'ISOFLUD INJ|5 ML', 'MILK FEVER|450 ML', 'MINCHAT 2KG|2 KG', 'NEPHROCLEAN LIQUID|500 ML', 'NEUROXIN-M VET INJ.|30 ML', 'NEUROXIN-M VET INJ|10 ML', 'ORIPRIM BOLUS.|4 PCS', 'OXALGIN NP BOLUS|4 PCS', 'OXY-INJ.|50 ML', 'OXY-INJ|100 ML', 'OXY-INJ|30 ML', 'OXYNEX|100 ML', 'P-DEPOT 3ML|3 ML', 'P.A.M.INJ|10 ML', 'PEND SH OINT|6 ML', 'QUALIDROPS|450 ML', 'RUMISACC BOLUS|4 PCS', 'SIQUIL INJ|5 ML', 'SOFT & SILKY DOG SOAP|75 GM', 'STECLIN BOLUS|4 PCS', 'STECLIN INJ|100 ML', 'STECLIN INJ|30 ML', 'STECLIN INJ|50 ML', 'STECLIN LA|100 ML', 'SULPHA BOLUS|4 PCS', 'SULPHAZYD BOLOUS|2 PCS', 'SUPPLEVITE M GOLD|1 25 KG'], ['SUPPLEVITE-M|250 GM', 'SUPPLIVATE M GOLD|2 5 KG', 'TETRA-STEC BOLUS|2 PCS', 'TRUMECTIN|1 ML', 'TRUMECTIN|10 ML', 'VETALOG INJ.|5 ML', 'VETKAL B-12 GOLD|1 LITRE', 'VETKAL B-12GOLD|5 LITRE', 'VETKAL B-12|1 LITRE', 'ZOBID M INJ|100 ML', 'ZOBID-M INJ.|30 ML', 'ZOBID-M INJ|15 ML', 'ZYCLOZ BOLUS|4 PCS', 'ZYCLOZ ORAL SOLUTION|30 ML', 'ZYMAGOUT WH|100 ML', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']]
+    zydus = [['ARNIBAX SHAMPOO|200 ML', 'BATRYNIL INJ|30 ML', 'BELAMYL INJ.|30 ML', 'BELAMYL INJ|10 ML', 'BELAMYL INJ|50 ML', 'BIOBLOOM POWDER|250 GM', 'BIOBLOOM POW|1 KG', 'CADISOL DC|1 LITRE', 'CADISOL DC|100 ML', 'CADISOL-DC|500 ML', 'CADISTIN VET INJ.|100 ML', 'CADISTIN VET INJ|30 ML', 'CAPSOLA GOLD|1 LITRE', 'CAPSOLA GOLD|20 LITRE', 'CAPSOLA GOLD|5 LITRE', 'CAPSOLA PREMIUM|1 LITRE', 'CHELATED RANMIX SHAKTI|1 KG', 'CURAMINTH 1.5 TAB|2 PCS', 'CURAMINTH 150 TAB|10 PCS', 'DERMEEZ|50 ML', 'DEXONA VET INJ|5 ML', 'DIERYSTICIN S LD INJ|2 5 GM', 'ECTOFREE|200 ML', 'ENRODAC 10 ORAL SOL|100 ML', 'ENRODAC-10 VET INJ|100 ML', 'ENRODAC-10|15 ML', 'ESGIPYRIN N INJ|5 PCS', 'F.P.P.20 LAK|10 PCS', 'FLUNIMEG INJ|10 ML', 'FURSHINE DOG SHAMPOO|100 ML'], ['FURSHINE DOG SHAMPOO|200 ML', 'GWALA POWDER|1 KG', 'HEXANIDE BOLUS|4 PCS', 'ISOFLUD INJ|5 ML', 'MILK FEVER|450 ML', 'MINCHAT 2KG|2 KG', 'NEPHROCLEAN LIQUID|500 ML', 'NEUROXIN-M VET INJ.|30 ML', 'NEUROXIN-M VET INJ|10 ML', 'ORIPRIM BOLUS.|4 PCS', 'OXALGIN NP BOLUS|4 PCS', 'OXY-INJ.|50 ML', 'OXY-INJ|100 ML', 'OXY-INJ|30 ML', 'OXYNEX|100 ML', 'P-DEPOT 3ML|3 ML', 'P.A.M.INJ|10 ML', 'PEND SH OINT|6 ML', 'QUALIDROPS|450 ML', 'RUMISACC BOLUS|4 PCS', 'SIQUIL INJ|5 ML', 'SOFT & SILKY DOG SOAP|75 GM', 'STECLIN BOLUS|4 PCS', 'STECLIN INJ|100 ML', 'STECLIN INJ|30 ML', 'STECLIN INJ|50 ML', 'STECLIN LA|100 ML', 'SULPHA BOLUS|4 PCS', 'SULPHAZYD BOLOUS|2 PCS', 'SUPPLEVITE M GOLD|1 25 KG'], ['SUPPLEVITE-M|250 GM', 'SUPPLIVATE M GOLD|2 5 KG', 'TETRA-STEC BOLUS|2 PCS', 'TRUMECTIN|1 ML', 'TRUMECTIN|10 ML', 'VETALOG INJ.|5 ML', 'VETKAL B-12 GOLD|1 LITRE', 'VETKAL B-12GOLD|5 LITRE', 'VETKAL B-12|1 LITRE', 'ZOBID M INJ|100 ML', 'ZOBID-M INJ.|30 ML', 'ZOBID-M INJ|15 ML', 'ZYCLOZ BOLUS|4 PCS', 'ZYCLOZ ORAL SOLUTION|30 ML', 'ZYMAGOUT WH|100 ML', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']]
     
     bion = [['ADGABA GEL|15 GM', 'ADGABA GEL|30 GM', 'ADGABA TAB|10 PCS', 'ADGABA- NT|10 PCS', 'ADGABA-AT 100|10 PCS', 'AMILIFT DX|10 PCS', 'AMILIFT-10|10 PCS', 'AMILIFT-25SR|10 PCS', 'BIOCOLLAZ AG|10 GM', 'BIOCOLLAZ PARTICLES|5 ML', 'BIOCOLLAZ|1 ML', 'BIODEBRID|15 GM', 'BIOFOOT CREAM|40 GM', 'BIOPDF|7 5 GM', 'BOXYCLAV INJ|1 2 GM', 'BOXYCLAV|10 PCS', 'CATERPIL GEL|30 GM', 'CATERPIL|10 PCS', 'CT CVA PLUS|10 PCS', 'GBION TAB|10 PCS', 'LIFTOL|10 PCS', 'MEAXON AT|10 PCS', 'MEAXON INJ|1 ML', 'MEAXON INJ|10 PCS', 'MEAXON OD|10 PCS', 'MEAXON PG|10 PCS', 'MEAXON PLUS INJ|1 ML', 'MEAXON PLUS|10 PCS', 'MITO Q7|10 PCS', 'MeAxon Gold inj|1 ML'], ['R NINE|5 GM', 'RABPRIDE TAB|10 PCS', 'RABPRIDE-L CAP|10 PCS', 'SUNLITE ORAL|5 ML', 'SUNLITE|10 PCS', 'TK JOINT|3 PCS', 'TUFNOL TAB|10 PCS', 'TUFNOL TBR|10 PCS', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']]
     
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded",
     
     himalayavet = [['ANXOCARE VET TAB|60 PCS', 'APPETONIC FORTE POWDER|15 GM', 'DIGYTON DROPS|30 ML', 'DIGYTON PLUS LIQ|100 ML', 'ERINA COAT CLEANSER|120 ML', 'ERINA-EP POWDER|150 GM', 'ERINA-EP SHAMPOO|200 ML', 'FRESH COAT|150 ML', 'FURGLOW 200ML|200 ML', 'FURGLOW CONDITIONER|400 ML', 'GALACTIN VET BOLUS|4 PCS', 'GERIFORTE|1 LITRE', 'HEALTHY TREATS IKG|1 KG', 'HIMCAL SUSPENSION|5 LITRE', 'HIMCAL SUSPENS|1 LITRE', 'HIMCAL SUSP|200 ML', 'HIMCHELATE POWDER 1KG|1 KG', 'HIMPYRIN VET LIQUID|30 ML', 'HIMROP VET LIQID|500 ML', 'HIMSHAKIT|500 ML', 'HIMSHAKTI 1 LTR|1 LITRE', 'IMMUNOL LIQUID|100 ML', 'LIV 52 PROTEC LIQUID|5 LITRE', 'LIV-52 LIQUID|110 ML', 'LIV-52 PET LIQUID|200 ML', 'LIV-52 PROTEC|1 LITRE', 'LIV.52 POWER|100 GM', 'NEFROTEC DS VET TABLETS|10 PCS', 'NEFROTEC VET LIQUID|1 LITRE', 'SCAVON VET CREAM|50 GM'], ['SCAVON VET SPRAY|100 ML', 'SCAVON VET SPRAY|120 ML', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']]
     
-    hoechst = [['AVIL VET.|10 ML', 'AVILIN INJ|10 ML', 'AVILIN INJ|33 ML', 'BERENIL 7% INJ|20 ML', 'BERENIL 7% INJ|30 ML', 'BUTOX LIQUID|50 ML', 'BUTOX LIQ|15 ML', 'PANACUR 1.5|2 PCS', 'PANACUR 150mg TAB|10 PCS', 'PREDNISOLON INJ|10 ML', 'TETRACYCLINE POWDER|100 GM', 'TOLZAN F|1 LITRE', 'TOLZAN F|90 ML', 'TONOPHOSHAN|30 ML', 'TONOPHOSPHAN INJ|10 ML', 'VETALGIN INJ|33 ML', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']]
+    msd = [['AVIL VET.|10 ML', 'AVILIN INJ|10 ML', 'AVILIN INJ|33 ML', 'BERENIL 7% INJ|20 ML', 'BERENIL 7% INJ|30 ML', 'BUTOX LIQUID|50 ML', 'BUTOX LIQ|15 ML', 'PANACUR 1.5|2 PCS', 'PANACUR 150mg TAB|10 PCS', 'PREDNISOLON INJ|10 ML', 'TETRACYCLINE POWDER|100 GM', 'TOLZAN F|1 LITRE', 'TOLZAN F|90 ML', 'TONOPHOSHAN|30 ML', 'TONOPHOSPHAN INJ|10 ML', 'VETALGIN INJ|33 ML', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']]
 
     indianherbs = [['BLAZE SAMPO|200 ML', 'CAFLON|100 GM', 'CALMORE LIQ|1 LITRE', 'D-BLOT|100 ML', 'GUTLYTE GS|20 GM', 'H.B.STRONG|10 MG', 'HIMALAYAN BATISA..|400 GM', 'HIMALAYAN BATISA.|200 GM', 'HIMALAYAN BATISA|1 KG', 'HIMALAYAN BATISA|100 GM', 'HIMAX CREAM|50 GM', 'HIMAX LOTION|100 ML', 'HIMAX|1 KG', 'LIVOL POWER|100 GM', 'MAMMIFLAM|50 GM', 'MEBOLIV LIQ.|240 ML', 'MEBOLIV SYP|500 ML', 'NEBLON POWER|100 GM', 'OVIMIN BOLUS|2 PCS', 'PRAJANA HS|6 PCS', 'REPALANTA POWER|100 GM', 'SKIN-HEAL SPRAY|100 ML', 'TIMPOL POWER|100 MG', 'UTRIFIT LIQ|500 ML', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A']]
     
@@ -308,7 +308,7 @@ function next(event) {
         }
       else{
           count = 0;
-          cmp = sarbhai;
+          cmp = zydus;
           changecmp(cmp,fill_array(cmp,'product.jpg'),fill_array(cmp,'green'));
       }
     }
@@ -438,8 +438,8 @@ function next(event) {
   }
 
   function clickc21(event){
-      if(document.getElementById("C21").innerHTML=="HOECHST"){
-          cmp = hoechst;
+      if(document.getElementById("C21").innerHTML=="MSD"){
+          cmp = msd;
           changecmp(cmp,fill_array(cmp,'product.jpg'),fill_array(cmp,'green'));
         }
   }
